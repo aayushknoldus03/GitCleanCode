@@ -4,8 +4,8 @@ import java.util.*;
 
 public class ReducedArray {
     public static void main(String[] args) {
-        int[] Array = {5, 10, 40, 30, 20};
-        reducingArray(Array);
+        int[] inputArray = {5, 10, 40, 30, 20};
+        reducingArray(inputArray);
     }
 
     //function for reducing array
