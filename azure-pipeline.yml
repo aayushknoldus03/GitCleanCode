@@ -1,0 +1,16 @@
+trigger: 
+- main
+
+pool: ubuntupool
+
+stages:
+  - stage: A
+    jobs:
+    - job: AJo 
+      steps:
+       - script: javac ReducedArray.java
+  - stage: B
+    jobs:
+    - job: Bjob
+      steps:
+       - script: java ReducedArray.java
