@@ -15,7 +15,6 @@ public class ReducedArray{
         for(int index=0;index<Array.length;index++){
             sortedArray[index]=Array[index];
         }
-
         Arrays.sort(sortedArray);
         // put the array elements as key and its index as value in hashmap
         for(int index=0;index<Array.length;index++){
