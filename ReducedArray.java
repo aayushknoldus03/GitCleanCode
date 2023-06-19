@@ -1,8 +1,6 @@
-package gitcleancode;
-
 import java.util.*;
 
-public class ReducedArray {
+public class ReducedArray{
     public static void main(String[] args) {
         int[] inputArray = {5, 10, 40, 30, 20};
         reducingArray(inputArray);
