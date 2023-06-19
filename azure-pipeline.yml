@@ -6,16 +6,16 @@ pool: ubuntupool
 stages:
   - stage: A
     jobs:
-    - job: A1Job
+    - job: A1Job 
       steps:
        - task: Bash@3
+         displayName: "compiling code"
          inputs:
           targetType: 'inline'
           script: 'javac ReducedArray.java'
-
-    - job: A2Job
-      steps:
+        
        - task: Bash@3
+         displayName: "running"
          inputs:
           targetType: 'inline'
           script: 'java ReducedArray'
