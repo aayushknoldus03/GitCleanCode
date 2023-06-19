@@ -21,6 +21,7 @@ public class ReducedArray{
         for(int index=0;index<Array.length;index++){
         map.put(sortedArray[index],index);
         }
+        
         // fetching the value of each element from map and replacing with it.
         for(int index=0;index<Array.length;index++){
             Array[index]= map.get(Array[index]);
