@@ -3,6 +3,7 @@ trigger:
 
 pool: ubuntupool
 
+
 stages:
   - stage: A
     jobs:
