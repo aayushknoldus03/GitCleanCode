@@ -6,7 +6,7 @@ pool: ubuntupool
 stages:
   - stage: A
     jobs:
-    - job: A1Jo b
+    - job: A1Job
       steps:
        - task: Bash@3
          inputs:
